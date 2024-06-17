@@ -39,4 +39,3 @@ function calcular() {
     }
     document.querySelector('#resultado').innerHTML = resultado;
 }
-console.log(operador);

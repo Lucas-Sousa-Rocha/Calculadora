@@ -4,9 +4,17 @@ body {
 }
 
 #div {
-    margin-top: 100px;
-    display: grid;
+    width: 450px;
+    height: 500px;
+    border: 10px solid #e40000;
+    background-color: rgb(255, 255, 255);
     place-items: center;
+    display: grid;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin: -300px 0 0 -25px;
 }
 
 input {
@@ -49,7 +57,7 @@ input {
     color: rgb(255, 255, 255);
     padding: 10px 10px 10px 10px;
     text-align: center;
-    font-size: 13px;
+    font-size: 18px;
     flex-direction: row;
     border: 1px solid #b11313;
     -webkit-appearance: none;
